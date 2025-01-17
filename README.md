@@ -1,17 +1,19 @@
-UT2004 Docker Server
-Este repositório contém tudo o que você precisa para rodar um servidor Unreal Tournament 2004 usando Docker.
+# UT2004 Docker Server
 
-Pré-requisitos
-Docker instalado no seu sistema.
-Docker Compose configurado.
-Passo a Passo
-Clone o repositório:
+Este repositório contém tudo o que você precisa para rodar um servidor **Unreal Tournament 2004** usando Docker.
 
-bash
-Copy
-Edit
-git clone https://github.com/andrediashexa/ut2004.git
-cd ut2004
+## Pré-requisitos
+
+- [Docker](https://docs.docker.com/get-docker/) instalado no seu sistema.
+- [Docker Compose](https://docs.docker.com/compose/install/) configurado.
+
+## Passo a Passo
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/andrediashexa/ut2004.git
+   cd ut2004
 Suba o contêiner com o Docker Compose:
 
 bash
