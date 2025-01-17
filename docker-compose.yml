@@ -1,0 +1,11 @@
+services:
+  ut2004:
+    image: captbrick/ut2004
+    container_name: ut2004
+    ports:
+      - "80:80"
+      - "7777:7777/udp"
+      - "7778:7778/udp"
+    restart: unless-stopped
+    volumes:
+      - ./entrypoint.sh:/entrypoint.sh
