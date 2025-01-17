@@ -36,3 +36,5 @@ docker-compose down
 
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+O client, verifique no https://ut2004serverlist.com/
